@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const isAuth = require("./middleware/auth");
 const app = express();
-const port = 5000;
+const port = 5010;
 
 const product = require("./Routes/products");
 const user = require("./Routes/users");
